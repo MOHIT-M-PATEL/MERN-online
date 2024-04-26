@@ -16,7 +16,7 @@ app.use(session({
     saveUninitialized: false
 }));
 app.use(cors({
-    origin: ['http://localhost:3000','http://localhost:64109'],
+    origin: ['http://localhost:3000','http://localhost:64109','https://mern-online-b4p1.onrender.com/'],
     credentials: true 
 }));
 
